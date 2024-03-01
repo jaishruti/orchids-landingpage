@@ -1,0 +1,287 @@
+
+/********* Common CSS Starts **********/
+:root {
+    --red: #780404;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden
+  }
+  html,
+  body {
+    font-family Roboto, sans-serif, arial;
+    font-size: 16px;
+    color: #242424;
+  }
+  .container {
+    width: 100%;
+    margin: 0px auto;
+  }
+  .main-section {
+    width: 100%;
+    /* float: left; */
+    display: flex;
+    justify-content: center;
+    padding: 70px 0px 70px 0px;
+  }
+  .heading {
+    font-size: 28px;
+    font-weight: 500;
+    border-bottom: 1px solid var(--red);
+    margin-bottom: 20px;
+    color: var(--red);
+  }
+  /********* Common CSS End **********/
+/********* Header HTML CSS Starts **********/
+.header {
+	background: var(--red);
+	padding: 6px;
+}
+.header b {
+    display: flex;
+	color: rgb(249, 244, 244);
+    text-align: center;
+    justify-content: center;
+    
+	padding:10px;
+	font-size: 15px;
+}
+.header marquee {
+	font-size:20px;
+	color: #ffffff;
+	width: 80%;
+}
+/********* Header HTML CSS End **********/
+/********* Design Logo and Menu section CSS Starts **********/
+.logo {
+	height:60px;
+    background-color: #fff;
+}
+/*Menu Section Menu Section*/
+nav {
+	float: right;
+	padding:25px 0px;
+    
+}
+nav a {
+	color: var(--red);
+	text-decoration: none;
+	font-size:18px;
+	padding:2px 10px;
+	font-weight:500;
+    
+}
+a:hover{
+    color: #ffffff;
+    background-color: var(--red);
+}
+/********* Design Logo and Menu section CSS End **********/
+/********* Slider CSS Starts **********/
+.slider img {
+    width: 100%;
+  }
+  .centered {
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: var(--red)
+  }
+  /********* Slider CSS End **********/
+/********* Campus, Events and Notice Board section CSS Starts **********/
+.event {
+    width: 32%;
+    margin-right: 1%;
+    float: left;
+    background-color: #fff;
+    padding: 10px;
+  }
+  .event .heading {
+    border-bottom: 1px solid var(--red);
+    padding: 5px;
+    color: #fff;
+    background: var(--red);
+    text-align: center;
+  }
+  .event ul li {
+    display: flex;
+    background-color: #d6d2d2;
+    margin-bottom: 20px;
+    width: 100%;
+    float: left;
+    list-style: none;
+    padding: 5%;
+    justify-content: space-between;
+    border-radius: 10px;
+  }
+  .event .event-section ul li {
+    display: flex;
+    background-color: #d6d2d2;
+    margin-bottom: 20px;
+    width: 100%;
+    float: left;
+    list-style: none;
+    padding: 5%;
+    justify-content: space-between;
+    border-radius: 10px;
+  }
+  /* .event .event-section p{
+    padding: 5%;
+  } */
+  .event-date {
+    background:var(--red);
+    float: left;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    padding: 8px 12px;
+    margin-right: 10px;
+  }
+  
+  /********* Campus, Events and Notice Board section CSS End **********/
+  /********** About Us CSS Starts **********/  
+.about-us {
+    width: 100%;
+    float: left;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    /* align-items: center; */
+    line-height: 30px;
+    font-size: 18px;
+    padding: 2%;
+  }
+  .text-about{
+    width: 60%;
+  }
+  .about-us h4 {
+    font-size: 22px;
+  }
+  .about-us p {
+    line-height: 42px;
+  }
+  .about-us img {
+    width: 30%;
+    float: left;
+  }
+  /********** About Us CSS Ends **********/
+  /********** School Info, Award and Certificate CSS Starts **********/  
+.award p {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+  }
+  .award img {
+    width: 100%;
+  }
+  .award b {
+    min-width: 115px;
+    float: left;
+    margin-bottom: 20px;
+  }
+  .award h3 {
+    font-size: 23px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  /********** School Info, Award and Certificate CSS Ends **********/
+  /********* Testimonial Section CSS Starts **********/
+.container1{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+  .testimonial {
+    width: 30.5%;
+    /* height: 100%; */
+
+    float: left;
+    /* margin-right: 2.5%; */
+  }
+  .testimonial-text {
+    background: var(--red);
+    padding: 9%;
+    line-height: 35px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+  }
+  .testimonial-detail {
+    float: left;
+    margin-top: 10px;
+  }
+  .testimonial-img {
+    float: left;
+    
+  }
+  .testimonial-img img {
+    border-radius: 50%;
+  }
+  .testimonial-name {
+    margin-left: 10px;
+    float: left;
+  }
+  .testimonial-name h5 {
+    font-size: 18px;
+    margin-top: 8px;
+  }
+  /********* Testimonial Section CSS End **********/
+  /********* Gallery section CSS Starts **********/
+.gallery img {
+    width: 24%;
+    /* display: flex; */
+    /* align-items: flex-start ; */
+  }
+  /********* Gallery section CSS End **********/
+  /********* Footer section CSS Starts **********/
+.footer {
+    background-color: #780404;
+    padding: 2%;
+    width: 100%;
+    float: left;
+    display: flex;
+    color: #fff;
+  }
+  .footer-logo {
+    width: 70%;
+  }
+  .footer-sect {
+    width: 20%;
+    float: left;
+    text-align: left;
+    margin-top: 20px;
+    font-size: x-small;
+
+  }
+  .footer-sect1 p{
+    width: 30%;
+    font-size: 12px;
+    /* margin-right: 5px;
+    padding-left: 5px; */
+  }
+  .footer-sect1{
+    display: flex;
+    width: 80%;
+    gap: 20px;
+    justify-content: center;    /* flex-direction: column; */
+  }
+  .footer-sect a {
+    color: white;
+    padding: 10%;
+    margin-left: 20px;
+    text-decoration: none;
+    
+  }
+  .footer-sect i{
+    margin-right: 1px;
+
+  }
+  i:hover{
+    color: #ffcbcb;
+  }
+  /********* Footer section CSS End **********/
