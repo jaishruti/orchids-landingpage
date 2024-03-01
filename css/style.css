@@ -275,12 +275,11 @@ a:hover{
     padding: 10%;
     margin-left: 20px;
     text-decoration: none;
+    display: flex;
+    justify-content: space-between;
     
   }
-  .footer-sect i{
-    margin-right: 1px;
-
-  }
+  /* */
   i:hover{
     color: #ffcbcb;
   }
